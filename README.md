@@ -45,7 +45,9 @@ Este algoritmo pode ser descrito como:
 ```
 - Se estivermos na parede ou em um nó já visitado, retornar falha;
 - Caso contrário, se formos o nó de saída, então retornaremos com sucesso;
-- Caso contrário, adicione o nó na lista de caminhos e viaje recursivamente nas quatro direções. Se a falha for retornada, remova o nó do caminho e retorne a falha. A lista de caminhos conterá um caminho único quando a saída for encontrada.
+- Caso contrário, adicione o nó na lista de caminhos e viaje recursivamente 
+nas quatro direções. Se a falha for retornada, remova o nó do caminho e retorne a falha. 
+A lista de caminhos conterá um caminho único quando a saída for encontrada.
 ```
 
 Vamos aplicar esse algoritmo ao labirinto mostrado na Figura-1 (a), onde S é o ponto de partida e E é a saída.
@@ -56,9 +58,9 @@ Em 1 (b), exploramos um caminho e batemos na parede. Em seguida, retrocedemos at
 
 Novamente batemos na parede e repetimos o processo para finalmente encontrar a saída, conforme mostrado em 1 (d):
 
-<img src="dfs-2-240x300.gif">
+<img src="dfs-2-240x300.png">
 
-<img src="dfs-4-239x300-2.gif">
+<img src="dfs-4-239x300-2.png">
 
 ### 3.2. Implementação
 Vamos agora ver a implementação Java:
