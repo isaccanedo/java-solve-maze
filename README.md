@@ -156,7 +156,8 @@ O algoritmo pode ser descrito da seguinte forma:
 1 - Adicione o nó inicial na fila;
 2 - Enquanto a fila não estiver vazia, abra um nó, faça o seguinte:
 2.1 - Se atingirmos a parede ou o nó já for visitado, pule para a próxima iteração;
-2.2 - Se o nó de saída for alcançado, retroceda do nó atual até o nó inicial para encontrar o caminho mais curto;
+2.2 - Se o nó de saída for alcançado, retroceda do nó atual até o nó inicial para encontrar
+o caminho mais curto;
 2.3 - Caso contrário, adicione todos os vizinhos imediatos nas quatro direções da fila.
 ```
 
