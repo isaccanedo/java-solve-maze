@@ -58,7 +58,7 @@ Em 1 (b), exploramos um caminho e batemos na parede. Em seguida, retrocedemos at
 
 Novamente batemos na parede e repetimos o processo para finalmente encontrar a saída, conforme mostrado em 1 (d):
 
-<img src="dfs-2-240x300.png">
+<img src="dfs-3-240x300.png">
 
 <img src="dfs-4-239x300-2.png">
 
