@@ -10,11 +10,13 @@ Dado esse labirinto, queremos encontrar um caminho da entrada até a saída.
 # 2. Modelando o Labirinto
 Consideraremos o labirinto como uma matriz de inteiros 2D. O significado dos valores numéricos na matriz será conforme a seguinte convenção:
 
+```
 0 -> Estrada
 1 -> Parede
 2 -> Entrada do labirinto
 3 -> Saída do labirinto
 4 -> Célula parte do caminho de entrada a saída
+```
 Vamos modelar o labirinto como um gráfico. A entrada e a saída são os dois nós especiais, entre os quais o caminho deve ser determinado.
 
 Um gráfico típico tem duas propriedades, nós e arestas. Uma aresta determina a conectividade do gráfico e vincula um nó a outro.
